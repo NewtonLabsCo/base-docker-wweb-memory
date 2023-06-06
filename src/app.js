@@ -7,8 +7,8 @@ const {
 
 const QRPortal = require('@bot-whatsapp/portal')
 
-const WebWhatsappProvider = require('@bot-whatsapp/provider/web-whatsapp')
-const MockAdapter = require('@bot-whatsapp/database/mock')
+const WebWhatsappProvider = require('@bot-whatsapp/provider/baileys')
+const MockAdapter = require('@bot-whatsapp/database/json')
 
 const flowPrincipal = addKeyword('hola').addAnswer('Buenas!')
 
