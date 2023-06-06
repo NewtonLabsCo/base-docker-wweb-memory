@@ -1,10 +1,10 @@
 {
-    "name": "base-docker-wweb-memory",
+    "name": "bot-whatsapp-base-bailey-json",
     "version": "1.0.0",
     "description": "",
     "main": "app.js",
     "scripts": {
-        "pre-copy": "cd .. && yarn run copy.lib base-wweb-memory",
+        "pre-copy": "cd .. && yarn run copy.lib base-bailey-json",
         "start": "node ./src/app.js"
     },
     "keywords": [],
